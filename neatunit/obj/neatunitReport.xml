@@ -1,0 +1,432 @@
+<report>
+  <scripts>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\VScrollBar.as" mod="1274102960000" size="449" optimizedsize="427">
+      <def id="com.bit101.components:VScrollBar" />
+      <pre id="com.bit101.components:ScrollBar" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="com.bit101.components:Slider" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\ScrollBar.as" mod="1274697208000" size="4491" optimizedsize="4084">
+      <def id="com.bit101.components:ScrollBar" />
+      <pre id="com.bit101.components:Slider" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="com.bit101.components:PushButton" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.events:MouseEvent" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="flash.geom:Rectangle" />
+      <dep id="flash.utils:Timer" />
+      <dep id="Math" />
+      <dep id="com.bit101.components:Style" />
+      <dep id="flash.events:TimerEvent" />
+      <dep id="flash.display:Shape" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\neatunit\TestBeforeClassAfterClass.as" mod="1276443316718" size="555" optimizedsize="545">
+      <def id="neatunit:TestBeforeClassAfterClass" />
+      <pre id="neatunit:TestCase" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="D:\开发目录\neatunit\src\neatunit\CollectionAssert.as" mod="1276443597671" size="2439" optimizedsize="2383">
+      <def id="neatunit:CollectionAssert" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="neatunit:TestCase" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="Error" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\ListItem.as" mod="1274102960000" size="1824" optimizedsize="1743">
+      <def id="com.bit101.components:ListItem" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="flash.events:MouseEvent" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="com.bit101.components:Label" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\List.as" mod="1276137486562" size="3471" optimizedsize="3346">
+      <def id="com.bit101.components:List" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="flash.events:Event" />
+      <dep id="com.bit101.components:Panel" />
+      <dep id="flash.events:MouseEvent" />
+      <dep id="com.bit101.components:VScrollBar" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="com.bit101.components:ListItem" />
+      <dep id="Math" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="D:\开发目录\neatunit\src\neatunit\TestRunner.as" mod="1276443830593" size="4156" optimizedsize="3884">
+      <def id="neatunit:TestRunner" />
+      <pre id="flash.display:Sprite" />
+      <dep id="flash.display:StageScaleMode" />
+      <dep id="com.bit101.components:List" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="neatunit:TestResult" />
+      <dep id="com.bit101.components:VBox" />
+      <dep id="com.bit101.components:ProgressBar" />
+      <dep id="com.bit101.components:Window" />
+      <dep id="flash.system:fscommand" />
+      <dep id="AS3" />
+      <dep id="com.bit101.components:RadioButton" />
+      <dep id="com.bit101.components:HBox" />
+      <dep id="com.bit101.components:Label" />
+      <dep id="com.bit101.components:TextArea" />
+      <dep id="flash.display:StageAlign" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\neatunit\TestCollectionAssert.as" mod="1276435359171" size="1308" optimizedsize="1236">
+      <def id="neatunit:TestCollectionAssert" />
+      <pre id="neatunit:TestCase" />
+      <dep id="neatunit:CollectionAssert" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\neatunit\TestAssert.as" mod="1276442458531" size="1136" optimizedsize="1103">
+      <def id="neatunit:TestAssert" />
+      <pre id="neatunit:TestCase" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\Style.as" mod="1275645638953" size="502" optimizedsize="496">
+      <def id="com.bit101.components:Style" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\开发目录\neatunit\src\neatunit\TestResult.as" mod="1276429402078" size="740" optimizedsize="730">
+      <def id="neatunit:TestResult" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\RadioButton.as" mod="1274102960000" size="2001" optimizedsize="1917">
+      <def id="com.bit101.components:RadioButton" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="flash.events:MouseEvent" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="com.bit101.components:Style" />
+      <dep id="com.bit101.components:Label" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\PushButton.as" mod="1274102960000" size="2007" optimizedsize="1921">
+      <def id="com.bit101.components:PushButton" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="flash.events:MouseEvent" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="com.bit101.components:Style" />
+      <dep id="com.bit101.components:Label" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\neatunit\TestAsynchronous.as" mod="1276441351406" size="6275" optimizedsize="5830">
+      <def id="neatunit:TestAsynchronous" />
+      <pre id="neatunit:TestCase" />
+      <dep id="flash.utils:setTimeout" />
+      <dep id="neatunit:Async" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.events:EventDispatcher" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Timer" />
+      <dep id="flash.events:TimerEvent" />
+      <dep id="Error" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="D:\开发目录\neatunit\src\neatunit\Assert.as" mod="1276443114328" size="3257" optimizedsize="3100">
+      <def id="neatunit:Assert" />
+      <pre id="Object" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="QName" />
+      <dep id="neatunit:TestCase" />
+      <dep id="neatunit:TestResult" />
+      <dep id="Math" />
+      <dep id="neatunit:TestRunner" />
+      <dep id="XMLList" />
+      <dep id="Error" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="Date" />
+      <dep id="AS3" />
+      <dep id="XML" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="D:\开发目录\neatunit\src\neatunit\StringAssert.as" mod="1276443605218" size="1168" optimizedsize="1143">
+      <def id="neatunit:StringAssert" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="neatunit:TestCase" />
+      <dep id="RegExp" />
+      <dep id="Error" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\Text.as" mod="1274102960000" size="1714" optimizedsize="1656">
+      <def id="com.bit101.components:Text" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="flash.events:Event" />
+      <dep id="com.bit101.components:Panel" />
+      <dep id="flash.text:TextFormat" />
+      <dep id="AS3" />
+      <dep id="flash.text:TextFieldType" />
+      <dep id="flash.text:TextField" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="com.bit101.components:Style" />
+    </script>
+    <script name="C:\flex_sdk_4.0.0.14159_mpl\frameworks\libs\flash-integration.swc(mx.core:mx_internal)" mod="1262975721025" size="184" optimizedsize="109">
+      <def id="mx.core:mx_internal" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\neatunit\TestStringAssert.as" mod="1276435215468" size="844" optimizedsize="789">
+      <def id="neatunit:TestStringAssert" />
+      <pre id="neatunit:TestCase" />
+      <dep id="AS3" />
+      <dep id="neatunit:StringAssert" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\NeatUnitRunner.as" mod="1276443878921" size="496" optimizedsize="466">
+      <def id="NeatUnitRunner" />
+      <pre id="flash.display:Sprite" />
+      <dep id="neatunit:TestSuite" />
+      <dep id="AS3" />
+      <dep id="neatunit:TestAssert" />
+      <dep id="NeatUnitSuit" />
+      <dep id="neatunit:TestRunner" />
+      <dep id="neatunit:TestStringAssert" />
+      <dep id="neatunit:TestCollectionAssert" />
+    </script>
+    <script name="C:\flex_sdk_4.0.0.14159_mpl\frameworks\libs\flex.swc(mx.core:IFlexAsset)" mod="1262975721900" size="319" optimizedsize="98">
+      <def id="mx.core:IFlexAsset" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\TextArea.as" mod="1274102960000" size="1452" optimizedsize="1381">
+      <def id="com.bit101.components:TextArea" />
+      <pre id="com.bit101.components:Text" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.events:MouseEvent" />
+      <dep id="com.bit101.components:VScrollBar" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="Math" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\VBox.as" mod="1274102960000" size="1079" optimizedsize="1024">
+      <def id="com.bit101.components:VBox" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="Math" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\Slider.as" mod="1274697203546" size="2914" optimizedsize="2718">
+      <def id="com.bit101.components:Slider" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.events:MouseEvent" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="flash.geom:Rectangle" />
+      <dep id="Math" />
+      <dep id="com.bit101.components:Style" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\neatunit\TestMethodOrder.as" mod="1276441373234" size="572" optimizedsize="557">
+      <def id="neatunit:TestMethodOrder" />
+      <pre id="neatunit:TestCase" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\neatunit\TestSetUpTearDown.as" mod="1276441339125" size="506" optimizedsize="492">
+      <def id="neatunit:TestSetUpTearDown" />
+      <pre id="neatunit:TestCase" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\neatunit\TestException.as" mod="1276443375921" size="294" optimizedsize="284">
+      <def id="neatunit:TestException" />
+      <pre id="neatunit:TestCase" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\neatunit\TestIgnore.as" mod="1276443410031" size="400" optimizedsize="390">
+      <def id="neatunit:TestIgnore" />
+      <pre id="neatunit:TestCase" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="D:\开发目录\neatunit\src\neatunit\TestCase.as" mod="1276443678359" size="3137" optimizedsize="2962">
+      <def id="neatunit:TestCase" />
+      <pre id="neatunit:Assert" />
+      <dep id="flash.utils:describeType" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="neatunit:TestResult" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="flash.utils:getTimer" />
+      <dep id="neatunit:TestRunner" />
+      <dep id="XMLList" />
+      <dep id="Error" />
+      <dep id="flash.utils:setTimeout" />
+      <dep id="neatunit:TestSuite" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="XML" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\Component.as" mod="1275645645109" size="1827" optimizedsize="1650">
+      <def id="com.bit101.components:Component" />
+      <pre id="flash.display:Sprite" />
+      <dep id="flash.display:StageScaleMode" />
+      <dep id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="Math" />
+      <dep id="com.bit101.components:Style" />
+      <dep id="com.bit101.components:Component_Ronda" />
+      <dep id="flash.display:Stage" />
+      <dep id="flash.filters:DropShadowFilter" />
+      <dep id="flash.display:StageAlign" />
+    </script>
+    <script name="D:\开发目录\neatunit\src\neatunit\TestSuite.as" mod="1276355538156" size="914" optimizedsize="854">
+      <def id="neatunit:TestSuite" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="neatunit:TestCase" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="neatunit:TestResult" />
+      <dep id="neatunit:TestRunner" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\Window.as" mod="1274690114984" size="3028" optimizedsize="2930">
+      <def id="com.bit101.components:Window" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="com.bit101.components:PushButton" />
+      <dep id="flash.events:Event" />
+      <dep id="com.bit101.components:Panel" />
+      <dep id="flash.events:MouseEvent" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="com.bit101.components:Label" />
+      <dep id="flash.display:Shape" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\ProgressBar.as" mod="1274102960000" size="1182" optimizedsize="1130">
+      <def id="com.bit101.components:ProgressBar" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="Math" />
+      <dep id="com.bit101.components:Style" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\neatunit\TestVisualCase.as" mod="1276439802687" size="775" optimizedsize="748">
+      <def id="neatunit:TestVisualCase" />
+      <pre id="neatunit:TestCase" />
+      <dep id="AS3" />
+      <dep id="flash.display:Stage" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="D:\开发目录\neatunit\src\neatunit\Async.as" mod="1276442773140" size="3341" optimizedsize="3071">
+      <def id="neatunit:Async" />
+      <pre id="Object" />
+      <dep id="flash.utils:setTimeout" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.events:IEventDispatcher" />
+      <dep id="AS3" />
+      <dep id="neatunit:TestCase" />
+      <dep id="neatunit:TestResult" />
+      <dep id="flash.utils:Timer" />
+      <dep id="flash.events:TimerEvent" />
+      <dep id="neatunit:Assert" />
+      <dep id="neatunit:TestRunner" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\flex_sdk_4.0.0.14159_mpl\frameworks\libs\flex.swc(mx.core:FontAsset)" mod="1262975722604" size="576" optimizedsize="282">
+      <def id="mx.core:FontAsset" />
+      <pre id="mx.core:IFlexAsset" />
+      <pre id="flash.text:Font" />
+      <dep id="AS3" />
+      <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="D:\开发目录\neatunit\test\NeatUnitSuit.as" mod="1276442670171" size="470" optimizedsize="432">
+      <def id="NeatUnitSuit" />
+      <pre id="neatunit:TestSuite" />
+      <dep id="neatunit:TestAsynchronous" />
+      <dep id="neatunit:TestIgnore" />
+      <dep id="neatunit:TestException" />
+      <dep id="neatunit:TestBeforeClassAfterClass" />
+      <dep id="AS3" />
+      <dep id="neatunit:TestAssert" />
+      <dep id="neatunit:TestVisualCase" />
+      <dep id="neatunit:TestMethodOrder" />
+      <dep id="neatunit:TestStringAssert" />
+      <dep id="neatunit:TestSetUpTearDown" />
+      <dep id="neatunit:TestCollectionAssert" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\Panel.as" mod="1274102960000" size="1658" optimizedsize="1589">
+      <def id="com.bit101.components:Panel" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="com.bit101.components:Style" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="com\bit101\components\Component_Ronda.as" mod="1207484264000" size="630" optimizedsize="244">
+      <def id="com.bit101.components:Component_Ronda" />
+      <pre id="mx.core:FontAsset" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\Label.as" mod="1274102960000" size="1265" optimizedsize="1223">
+      <def id="com.bit101.components:Label" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="flash.text:TextFieldAutoSize" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.text:TextFormat" />
+      <dep id="AS3" />
+      <dep id="flash.text:TextField" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="com.bit101.components:Style" />
+    </script>
+    <script name="D:\开发目录\neatunit\libs\com\bit101\components\HBox.as" mod="1274102960000" size="1079" optimizedsize="1024">
+      <def id="com.bit101.components:HBox" />
+      <pre id="com.bit101.components:Component" />
+      <dep id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="Math" />
+    </script>
+  </scripts>
+  <external-defs>
+    <ext id="flash.utils:ByteArray" />
+    <ext id="Math" />
+    <ext id="RegExp" />
+    <ext id="flash.display:StageAlign" />
+    <ext id="flash.errors:IllegalOperationError" />
+    <ext id="XMLList" />
+    <ext id="flash.filters:DropShadowFilter" />
+    <ext id="flash.events:Event" />
+    <ext id="flash.text:TextFieldType" />
+    <ext id="AS3" />
+    <ext id="flash.utils:describeType" />
+    <ext id="flash.utils:setTimeout" />
+    <ext id="XML" />
+    <ext id="flash.display:Shape" />
+    <ext id="flash.events:IEventDispatcher" />
+    <ext id="flash.geom:Rectangle" />
+    <ext id="QName" />
+    <ext id="flash.utils:Dictionary" />
+    <ext id="Error" />
+    <ext id="flash.events:EventDispatcher" />
+    <ext id="Date" />
+    <ext id="flash.text:TextField" />
+    <ext id="flash.display:DisplayObject" />
+    <ext id="__AS3__.vec:Vector" />
+    <ext id="Object" />
+    <ext id="flash.utils:Timer" />
+    <ext id="flash.display:DisplayObjectContainer" />
+    <ext id="flash.text:TextFormat" />
+    <ext id="flash.system:fscommand" />
+    <ext id="flash.events:TimerEvent" />
+    <ext id="flash.display:Sprite" />
+    <ext id="flash.events:MouseEvent" />
+    <ext id="flash.text:Font" />
+    <ext id="flash.display:Stage" />
+    <ext id="flash.utils:getQualifiedClassName" />
+    <ext id="flash.display:StageScaleMode" />
+    <ext id="flash.text:TextFieldAutoSize" />
+    <ext id="flash.utils:getTimer" />
+  </external-defs>
+</report>

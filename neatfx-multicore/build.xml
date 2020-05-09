@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="neatfx">
+	<!-- previously defined configuration properties -->
+	<property name="FLEX_HOME"
+			  value="C:/flex_sdk_4.0.0.14159_mpl"/>
+	<property name="DEMO_DIR"
+			  value="${basedir}/demo"/>
+	<property name="MVC_DIR"
+			  value="${basedir}/src"/>
+	<property name="LIBS_DIR"
+			  value="${basedir}/libs"/>
+	<property name="OUTPUT_DIR"
+			  value="${basedir}/bin"/>
+	<property name="DOCS_DIR"
+			  value="${basedir}/docs"/>
+	<property name="DEPLOY_DIR"
+			  value="C:\APMServ5.2.6\www\htdocs\flash"/>
+	<property name="PROJECT_TITLE"
+			  value="Neatfx"/>
+	<property name="PROJECT_VERSION"
+			  value="2.0"/>
+	<property name="FLASHPLAYER"
+			  value="${FLEX_HOME}/flashplayer_10_sa_debug.exe"/>
+	<property name="FIREFOX"
+			  value="C:\Program Files\Mozilla Firefox\firefox.exe"/>
+	<!-- flexTasks location -->
+	<taskdef resource="flexTasks.tasks"
+			 classpath="${FLEX_HOME}/ant/lib/flexTasks.jar"/>
+
+	<!-- Build and output the Shell.swf -->
+	<target name="shell">
+		<mxmlc file="${DEMO_DIR}/shell/Preloader.as"
+			   output="${OUTPUT_DIR}/Shell.swf">
+			<!-- Get default compiler options. -->
+			<load-config filename="${FLEX_HOME}/frameworks/flex-config.xml"/>
+			<!-- List of path elements that form the roots of ActionScript class hierarchies. -->
+			<source-path path-element="${DEMO_DIR}"/>
+			<source-path path-element="${MVC_DIR}"/>
+			<source-path path-element="${LIBS_DIR}/"/>
+			<!-- Debug -->
+			<debug>false</debug>
+			<!-- List of SWC files or directories that contain SWC files. -->
+			<!--<library-path dir="${LIBS_DIR}"
+								   append="true">
+				<include name="neatfx.swc"/>
+			<library-path>-->
+			<!-- compile "main" frame for Preloader -->
+			<frame label="main"
+				   classname="shell.Shell"/>
+			<!-- Set size of output SWF file. -->
+			<default-size width="600"
+						  height="400"/>
+		</mxmlc>
+	</target>
+
+	<!-- Build and output the Projects.swf -->
+	<target name="projects">
+		<mxmlc file="${DEMO_DIR}/modules/projects/Projects.as"
+			   output="${OUTPUT_DIR}/Projects.swf">
+			<load-config filename="${FLEX_HOME}/frameworks/flex-config.xml"/>
+			<source-path path-element="${DEMO_DIR}"/>
+			<source-path path-element="${MVC_DIR}"/>
+			<source-path path-element="${LIBS_DIR}"/>
+		</mxmlc>
+	</target>
+
+	<!-- Build and output the News.swf -->
+	<target name="news">
+		<mxmlc file="${DEMO_DIR}/modules/news/News.as"
+			   output="${OUTPUT_DIR}/News.swf">
+			<load-config filename="${FLEX_HOME}/frameworks/flex-config.xml"/>
+			<source-path path-element="${DEMO_DIR}"/>
+			<source-path path-element="${MVC_DIR}"/>
+			<source-path path-element="${LIBS_DIR}"/>
+		</mxmlc>
+	</target>
+
+	<!-- delete and recreate the bin dir -->
+	<target name="init">
+		<delete dir="${OUTPUT_DIR}"/>
+		<mkdir dir="${OUTPUT_DIR}"/>
+	</target>
+
+	<!-- Build all and run -->
+	<target name="runall"
+			depends="init,news,projects,shell">
+		<exec executable="${FLASHPLAYER}">
+			<arg value="${OUTPUT_DIR}/Shell.swf"/>
+		</exec>
+	</target>
+	<target name="runshell"
+			depends="shell">
+		<exec executable="${FLASHPLAYER}">
+			<arg value="${OUTPUT_DIR}/Shell.swf"/>
+		</exec>
+	</target>
+	<target name="runprojects"
+			depends="projects">
+		<exec executable="${FLASHPLAYER}">
+			<arg value="${OUTPUT_DIR}/Projects.swf"/>
+		</exec>
+	</target>
+	<target name="runnews"
+			depends="news">
+		<exec executable="${FLASHPLAYER}">
+			<arg value="${OUTPUT_DIR}/News.swf"/>
+		</exec>
+	</target>
+
+	<!-- Build SWC -->
+	<target name="buildSWC">
+		<compc output="${LIBS_DIR}/neatfx.swc">
+			<!-- Include all classes in this path -->
+			<include-sources dir="${MVC_DIR}/neatfx"
+							 includes="*"/>
+			<!-- Link in classes from swc library -->
+			<include-libraries file="${LIBS_DIR}"/>
+		</compc>
+	</target>
+
+	<!-- Build API Documentation -->
+	<target name="clean-asdoc">
+		<delete dir="${DOCS_DIR}"
+				failOnError="false"
+				includeEmptyDirs="true"/>
+		<mkdir dir="${DOCS_DIR}"/>
+	</target>
+
+	<target name="asdoc"
+			depends="clean-asdoc"
+			description="Create API documentation">
+		<tstamp>
+			<format property="docgen.time"
+					pattern="MM/dd/yyyy hh:mm aa"
+					unit="hour"/>
+		</tstamp>
+		<java jar="${FLEX_HOME}/lib/asdoc.jar"
+			  dir="${FLEX_HOME}/frameworks"
+			  fork="true"
+			  failonerror="true">
+			<arg line="-doc-sources ${MVC_DIR}/neatfx/"/>
+			<arg line="-source-path ${MVC_DIR}"/>
+			<arg line="-output ${DOCS_DIR}"/>
+			<arg line="-window-title '${PROJECT_TITLE} ${PROJECT_VERSION}'"/>
+			<arg line="-main-title '${PROJECT_TITLE} ${PROJECT_VERSION}'"/>
+			<arg line="-footer '${PROJECT_TITLE} - Documentation generated at: ${docgen.time}'"/>
+		</java>
+	</target>
+</project>

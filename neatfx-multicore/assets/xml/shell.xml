@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<site>
+	
+	<sections>
+		<section id="// WELCOME !">
+			<content>Neatfx Framework Multicore DEMO </content>
+		</section>
+		<section id="LOAD MODULES">
+			<content>" ALL YOUR BASE ARE BELONG TO US ! "</content>
+		</section>
+		<section id="UNLOAD MODULES">
+			<content>http://code.google.com/p/neatframework/</content>
+		</section>
+	</sections>
+
+</site>
